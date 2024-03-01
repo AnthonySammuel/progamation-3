@@ -1,32 +1,93 @@
-.tit-1{
-    color:black;
-}
-.tit-2{
-    color: darkblue;
-}
-
-.tit-3{
-    color: pink;
-}
-
-.tit-1 {
-    color: red;
+:root{
+    --cor-de-fundo: #f5f5f5;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --botao-ativo: #A020F0;
+    --botao-inativo: #FF00FF;
+    --texto-fundo: #87CEFA;
+    --cor-borda: #000000;
 }
 
-.tit-2{
-    color: pink;
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.tit-3{
-    color: pink;
+.titulo.principal {
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    color: var(--preto);
 }
 
-.botao-1{
-    background-color: yellow;
+.titulo.principal span {
+    color: var(--verde);
 }
-.botao-2{
-    background-color: yellow;
+
+.botao {
+    background-color: var(--branco);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--cor-borda);
+    border-left: 2px solid var(--cor-borda);
+    border-right: 2px solid var(--cor-borda);
+    border-top: 4px solid var(--cor-borda);
 }
-.botao-3{
-    background-color: yellow;
+
+.botoes {
+    display: block;
+}
+
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+    border-left: 4px solid var(--cor-borda);
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;}
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+        border-top: 4px solid var(--cor-borda);
+    }
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+        border-right: 4px solid var(--cor-borda);
+    }
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    color: black;
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 4px solid var(--cor-borda);
+    border-right: 4px solid var(--cor-borda);
+    border-left: 4px solid var(--cor-borda);
+}
+
+.aba-conteudo.ativo {
+    display: block;
+}
+
+.aba-conteudo {
+    display: none;
 }
