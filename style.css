@@ -13,15 +13,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    width: 100%;
+    max-width: 1500px;
+    width: 200%;
     margin: 0 auto;
 }
 
 .titulo.principal {
     text-align: center;
-    width: 100%;
-    font-size: 32px;
+    width: 200%;
+    font-size: 52px;
     color: var(--preto);
 }
 
