@@ -75,6 +75,10 @@ body {
     color: black;
 }
 
+.botao{
+    background-color: var(--botao-inativo);
+}
+
 .abas-textos {
     background-color: var(--texto-fundo);
     padding: 40px;
