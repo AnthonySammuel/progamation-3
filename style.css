@@ -1,5 +1,5 @@
 :root {
-    --cor-de-fundo: #f5f5f5;
+    --cor-de-fundo: white;
     --preto: #000000;
     --branco: #FFFFFF;
     --botao-ativo: #00a8c5b9;
@@ -23,7 +23,7 @@
     text-align: center;
     width: 200%;
     font-size: 52px;
-    color:yellow;
+    color:var(--cor-borda);
 }
 
 .titulo.principal span {
