@@ -75,12 +75,12 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    color: black;
+    color: white;
 }
 
 .botao {
     background-color: var(--botao-inativo);
-    color: white;
+    color: black;
 }
 
 .abas-textos {
