@@ -6,6 +6,7 @@
     --botao-inativo: #0541b1c4;
     --texto-fundo: #01a085ab;
     --cor-borda: #000000;
+    --cor
 }
 
 .conteudo-principal {
@@ -22,7 +23,7 @@
     text-align: center;
     width: 200%;
     font-size: 52px;
-    color: yellow;
+    color:yellow;
 }
 
 .titulo.principal span {
