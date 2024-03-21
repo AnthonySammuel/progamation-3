@@ -2,8 +2,8 @@
     --cor-de-fundo: white;
     --preto: #000000;
     --branco: #FFFFFF;
-    --botao-ativo: #00a8c5b9;
-    --botao-inativo: #0541b1c4;
+    --botao-ativo: #0797dab9;
+    --botao-inativo: #0412d1b1;
     --texto-fundo: #01a085ab;
     --cor-borda: #000000;
 }
@@ -75,12 +75,12 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    color: white;
+    color: black;
 }
 
 .botao {
     background-color: var(--botao-inativo);
-    color: black;
+    color: white;
 }
 
 .abas-textos {
