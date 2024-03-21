@@ -34,7 +34,7 @@
     color: var(--branco);
     display: flex;
     justify-content: center;
-    padding: 1em;
+    padding: 1em;#0412d1b1
     font-size: 18px;
     align-items: center;
     width: 100%;
@@ -48,7 +48,7 @@
     display: block;
 }
 
-.botao:first-child {
+.botao:first-child {#0412d1b1
     border-radius: 40px 40px 0 0;
     border-left: 4px solid var(--cor-borda);
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .abas-textos {
-    background-color: rosybrown;
+    background-color: #0412d1b1;
     padding: 40px;
     border-radius: 0 0 40px 40px;
     border-bottom: 4px solid var(--cor-borda);
