@@ -6,7 +6,6 @@
     --botao-inativo: #0541b1c4;
     --texto-fundo: #01a085ab;
     --cor-borda: #000000;
-    --cor
 }
 
 .conteudo-principal {
@@ -81,7 +80,7 @@ body {
 
 .botao {
     background-color: var(--botao-inativo);
-    color: #000000;
+    color: white;
 }
 
 .abas-textos {
