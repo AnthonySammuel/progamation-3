@@ -22,7 +22,7 @@
     text-align: center;
     width: 200%;
     font-size: 52px;
-    color:var(--cor-borda);
+    color: var(--cor-borda);
 }
 
 .titulo.principal span {
